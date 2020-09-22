@@ -1,0 +1,42 @@
+body, html {
+    /* The image used */
+     background-image: url("../Images/light-grey-background-13325.jpeg");
+     height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* h1 styling */
+h1 {
+    color: #5F9EA0;
+}
+/* wrap text around image */
+.text-center {
+    overflow: hidden;
+    padding-left: 25%;
+    padding-right: 25% ;
+    word-wrap: break-word;
+  }
+
+/* headshot styling */
+  .img-responsive {
+    max-width: 150px; 
+    max-height: 150px; 
+  }
+
+/* div background */
+  .my-background {
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px; 
+    margin-left: 50 px;
+    background: white;
+    padding: 20px; 
+  }
+
+  .portolio-img-style {
+      margin: 10px;
+  }
+
